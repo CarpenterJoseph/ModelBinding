@@ -1,0 +1,13 @@
+﻿@model ModelBinding.Models.Employee
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Model Binding Test</h1>
+
+@if (Model != null)
+{
+    <p>@Model.Name</p>
+    <p>@Model.ID</p>
+}
